@@ -13,8 +13,17 @@
 }
 body{
 	width:100%;
-	background-color:white;
+	background-image:url(Images/bg.jpg);
+	background-size:auto;
 	
+	
+}
+
+p{
+	margin-left:40px;
+	color:#4A4A4A;
+	font-family:"Adobe Garamond Pro";
+	font-size:18px;	
 	
 }
 
@@ -32,6 +41,23 @@ h2{
 	font-family:Helvetica;
 	color: #D57D2A;
 	margin-left:40px;
+	
+}
+#banner{
+	background-image:url(Images/bannerBg.jpg);
+    width: 1366px;
+	height:80px;
+	
+	z-index: 1;
+	top:0;
+	
+	
+}
+
+#logo{
+	margin-left:40px;
+	margin-top:7px;
+	
 	
 }
 .nav {
@@ -226,7 +252,7 @@ h2{
 .searchbutton {
 		
 		width:80px;
-		font-family: Helvetica;
+		font-family: Gill Sans MT;
 		font-size:12px;
 		
 		cursor: pointer;
@@ -253,6 +279,8 @@ input[type=search]{
 	
 	
 	}
+	
+	
 
 #slideshow{
 	width:1366px;
@@ -263,66 +291,223 @@ input[type=search]{
 }
 
 .tableslide{
-	margin-top:30px;
-	width:1200px;
-	background-color:#FAF7F2;
+	
+	width:1366px;
+	height:970px;
+	background-image:url(Images/tableSlide.jpg);
+	margin-bottom:0;
+	background-repeat:no-repeat;
+	}
+	.tableslide td{
+		height:400px;
+		
 	}
 	
-.browseInfo{
-	margin-bottom:700px;
+	
+	.tableHome{
+	
+	width:1366px;
+	
+	background-image:url(Images/servicesBg.jpg);
+	margin-bottom:0;
+
+	}
+#margin{
+	margin-top:40px;
+	margin-bottom:40px;
+	
+	
+}
+#positionHome{
+	margin-left:900px;
+	margin-bottom:300px;
+	
+}
+.tableCollection{
+	width: 1366px;
+	height: 700px;
+	background-image: url(Images/collectionBg.jpg);
+	text-align: center;
 	
 	
 	
 }
-#browsebutton{
+
+.tableCafe{
+	width: 1366px;
+	height: 700px;
+	background-image:url(Images/cafe.jpg);
+	text-align: center;
+	
+	
+	
+}
+
+.tableServices{
+	width: 1366px;
+	height: 700px;
+	background-image:url(Images/servicesBg.jpg);
+	text-align: center;
+	
+	
+	
+}
+
+.tableConversion{
+	color:#4A4A4A;
+	font-family:"Adobe Garamond Pro";
+	font-size:18px;
+	text-align: center;
+	width:600px;
+	border:solid #414141;
 	margin-left:40px;
 	
 	
 }
-	
-.slideH3{
-	color:#D57E2B;
-	text-transform:uppercase;
-	font-family:Helvetica;
-	margin-left:120px;
+
+#tableConversion{
+	color: #D57E2B;
+	text-transform: uppercase;
+	font-family: Gill Sans MT;
+	font-size:24px;
+	margin-right:200px;
+	background-color:#414141;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:600px;
+	margin-left:40px;
+
 	
 	
 	
 }
+.tableFeedback{
+	width: 1366px;
+	height: 600px;
+	background-image:url(Images/servicesBg.jpg);
+	text-align: center;
+	
+	
+	
+}
+.feedbackform{
+	width:500px;
+	margin-left:40px;
+	margin-top:20px;
+	font-family:"Adobe Garamond Pro";
+	
+	
+}
+
+.styleform{
+	width:350px;
+	color:#D57E2B;
+	padding-left:10px;
+	font-family:"Adobe Garamond Pro";
+	
+	
+}
+
+.styleformMsg{
+	width:350px;
+	color:#D57E2B;
+	height:150px;
+	padding-left:10px;
+	text-align:left;
+	padding-top:10px;
+	margin:0;
+	resize:none;
+	font-family:"Adobe Garamond Pro";
+
+}
+
+input[type=radio]{
+	color:#D57E2B;
+	margin-top:0;	
+	
+	font-family:"Adobe Garamond Pro";
+	
+	
+	}
+.sendMsgbutton {
+	
+		margin:0;
+		width:100px;
+		font-family: Gill Sans MT;
+		font-size:12px;
+		
+		cursor: pointer;
+		
+		color: #ffffff;
+		border: solid 1px #1A1A1A; border-right:0px;
+		background: #1A1A1A;
+		background: -webkit-gradient(linear, left top, left bottom, from(#9F9F9F), to(#1A1A1A));
+	background: -moz-linear-gradient(top,  #515151,  #222222);
+		
+	}
+	.sendMsgbutton:hover {
+		text-decoration: none;
+		background: #222222;
+		background: -webkit-gradient(linear, left top, left bottom, from(#515151), to(#222222));
+		background: -moz-linear-gradient(top,  #515151,  #222222);
+	}
+
 
 h3{
-	color:#D57E2B;
-	text-transform:uppercase;
-	font-family:butterfly-kids;
-	margin-left:40px;
-	margin-top:0;
+	color: #D57E2B;
+	text-transform: uppercase;
+	font-family: Gill Sans MT;
+	margin-left: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: left;
 	
 	
 }
 
-p{
+.pHome{
+	color: #D57E2B;
+	font-family: Gill Sans MT;
+	font-size:18px;
+	text-align: center;
+	margin-top:70px;
+	margin-left: 40px;
+	width:800px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	
+	
+	
+}
+
+.pServices{
 	color:#4A4A4A;
-	font-family:bree-serif;
-	margin-left:40px;
+	font-family:"Adobe Garamond Pro";
+	font-size:14px;
+	text-align: left;
+	margin-left: 40px;
+	width:600px;
+	margin-top: 5px;
+	margin-bottom: 0;
 	
 	
 	
 }
 
-
-#content{
-	width:100%;
-	background-color:#FAF7F2;
+.pAbout{
+	color:#4A4A4A;
+	font-family:"Adobe Garamond Pro";
+	font-size:14px;
+	text-align: left;
+	margin-left: 40px;
+	width:500px;
+	margin-top: 5px;
+	margin-bottom: 0;
 	
-	height:400px;
 	
 	
 }
 
-.tableContent{
-	width:1200px;
-
-}
 
 
 #footer{
@@ -365,6 +550,7 @@ p{
 
   
 .footerTable{
+	top:0;
 	margin-left:50px;
 	
 	
@@ -374,3 +560,4 @@ p{
 	margin-top:25px;
 	
 }
+
