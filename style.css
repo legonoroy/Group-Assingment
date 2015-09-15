@@ -493,6 +493,20 @@ h3{
 	
 	
 }
+.pPrice{
+	color:#4A4A4A;
+	font-family:"Helvetica";
+	font-weight: bold;
+	font-size:18px;
+	text-align: left;
+	margin-left: 40px;
+	width:600px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	
+	
+	
+}
 
 .pAbout{
 	color:#4A4A4A;
