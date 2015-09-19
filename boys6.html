@@ -80,6 +80,11 @@ $(document).ready(function() {
 
 
 });
+
+function myCart() {
+    alert("Item added to cart");
+}
+
 </script>
 
 
@@ -150,6 +155,10 @@ Patch pocket on both side of chest with flap and button close
 Button down sleeve cuffs
 
 <br /><br />
+<table class="tableSize">
+<tr>
+<td>Size</td>
+<td>
 <select>
 <option>XS</option>
 <option>S</option>
@@ -157,9 +166,26 @@ Button down sleeve cuffs
 <option>L</option>
 <option>XL</option>
 </select>
+</td>
+</tr>
+
+<tr>
+<td>Quantity</td>
+<td>
+<input type="number" min="1" max="10" value="1" />
+
+</td>
+
+</tr>
+
+<tr>
+<td> <input type="submit" value="add to cart" class="add-to-cart" data-name="Johnny Jeans" data-price="75.00" onclick="myCart()">
+</td>
+
+
+</tr>
+</table>
 <br /><br />
- <input type="submit" value="add to cart" class="sendMsgbutton">
- <br><br /><br />
  
 <table class="tableConversion" >
 <div id="tableConversion" align="center">Kids Size Conversion Chart</div>

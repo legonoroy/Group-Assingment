@@ -1,5 +1,9 @@
 // JavaScript of Shopping Cart
-var cart = [];
+if(localStorage.getItem("ShoppingCart") === null){
+	var cart = [];
+} else{
+	loadCart();
+}
 
 var Item = function(name, price, count){
 	this.name = name
@@ -8,7 +12,7 @@ var Item = function(name, price, count){
 	};
 	
 function addItem(name, price, count){
-	for (var i in Group-Assingment) {
+	for (var i in cart) {
 		if (cart[i].name === name) {
 			cart[i].count += count;
 			saveCart();

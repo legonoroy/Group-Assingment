@@ -80,6 +80,12 @@ $(document).ready(function() {
 
 
 });
+
+function myCart() {
+    alert("Item added to cart");
+}
+
+
 </script>
 
 
@@ -153,6 +159,10 @@ Faded wash
 <br />
 Straight hem
 <br /><br />
+<table class="tableSize">
+<tr>
+<td>Size</td>
+<td>
 <select>
 <option>XS</option>
 <option>S</option>
@@ -160,9 +170,26 @@ Straight hem
 <option>L</option>
 <option>XL</option>
 </select>
+</td>
+</tr>
+
+<tr>
+<td>Quantity</td>
+<td>
+<input type="number" min="1" max="10" value="1" />
+
+</td>
+
+</tr>
+
+<tr>
+<td> <input type="submit" value="add to cart" class="add-to-cart" data-name="Pima T-Shirt" data-price="20.00" onclick="myCart()">
+</td>
+
+
+</tr>
+</table>
 <br /><br />
- <input type="submit" value="add to cart" class="sendMsgbutton">
- <br><br /><br />
  
 <table class="tableConversion" >
 <div id="tableConversion" align="center">Kids Size Conversion Chart</div>

@@ -80,6 +80,11 @@ $(document).ready(function() {
 
 
 });
+
+function myCart() {
+    alert("Item added to cart");
+}
+
 </script>
 
 
@@ -152,6 +157,10 @@ Embroidered front neck
 All over printed dress
 
 <br /><br />
+<table class="tableSize">
+<tr>
+<td>Size</td>
+<td>
 <select>
 <option>XS</option>
 <option>S</option>
@@ -159,9 +168,26 @@ All over printed dress
 <option>L</option>
 <option>XL</option>
 </select>
+</td>
+</tr>
+
+<tr>
+<td>Quantity</td>
+<td>
+<input type="number" min="1" max="10" value="1" />
+
+</td>
+
+</tr>
+
+<tr>
+<td> <input type="submit" value="add to cart" class="add-to-cart" data-name="Feather Dress" data-price="60.00" onclick="myCart()">
+</td>
+
+
+</tr>
+</table>
 <br /><br />
- <input type="submit" value="add to cart" class="sendMsgbutton">
- <br><br /><br />
  
 <table class="tableConversion" >
 <div id="tableConversion" align="center">Kids Size Conversion Chart</div>
